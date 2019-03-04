@@ -1,5 +1,5 @@
 # 本仓库记录自己python数据分析的学习过程
-#### NumPy
+## NumPy
 - [NumPy数组基本操作](https://github.com/BigOrange128/Python-Data/blob/master/NumPy%E6%95%B0%E7%BB%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.ipynb)
 
       ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引
@@ -16,7 +16,5 @@
 
       数组生成函数、数据类型表、一元通用函数、二元通用函数、基础数学统计方法、数组的集合操作
       常用numpy.linalg函数、numpy.random部分函数
-
-    
-      
+## pandas
      正在读Wes McKinney的《利用Python进行数据分析》
