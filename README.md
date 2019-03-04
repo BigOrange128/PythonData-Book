@@ -1,6 +1,6 @@
 # 本仓库记录自己python数据分析的学习过程
 
-#### [NumPy数组基本操作](https://github.com/BigOrange128/PythonData/blob/master/NumPy%E6%95%B0%E7%BB%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.ipynb)
+#### [NumPy数组基本操作](https://github.com/BigOrange128/Python-Data/blob/master/NumPy%E6%95%B0%E7%BB%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.ipynb)
 - ndarray的基本介绍
 - 生成ndarray
 - ndarray的数据类型和转换
