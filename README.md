@@ -17,4 +17,25 @@
       数组生成函数、数据类型表、一元通用函数、二元通用函数、基础数学统计方法、数组的集合操作
       常用numpy.linalg函数、numpy.random部分函数
 ## pandas
+- [pandas入门1]()
+
+      ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引
+- [pandas入门2]()
+
+      ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引
+- [pandas入门3]()
+
+      ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引
+- [pandas入门4]()
+
+      ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引     
+- [pandas入门5]()
+
+      ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引 
+- [pandas入门6]()
+      
+      ndarray的基本介绍、生成ndarray、ndarray的数据类型和转换、NumPy数组算术、基础索引与切片、布尔索引和神奇索引     
+   
+     
+     
      正在读Wes McKinney的《利用Python进行数据分析》
