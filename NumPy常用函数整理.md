@@ -68,11 +68,79 @@
     arcsin、arcsinh、arctan、arctanh
     logical_not            对数组的元素按位取反(等同于~arr效果一致) 
 ## 二元通用函数
+> np.add(arr1, arr2)
 
-## 基础数学统计方法
+    函数名                  描述
+    
+    add                     将数组的对应元素相加
+    subtract                在第二个数组中，将第一个数组中包含的元素去除
+    multiply                将数组的对应元素相乘
+    divide, floor_divide    除或整除(放弃余数)
+    power                   将第二个数组的元素作为第一个数组对应元素的幂次方
+    maximum, fmax           逐个元素计算最大值，fmax忽略NaN
+    minimum, fmin           逐个元素计算最小值，fmin忽略NaN
+    mod                     按元素的求模计算(即求除法的余数)
+    copysign                将第一个数组的符号值改为第二个数组的符号值
+    
+    greater, greater_equal, 进行逐个元素的比较，返回布尔值数组 (与数学操作符号>、>=、<、<=、==、!=效果一致)   
+    less, less_equal,equal,   
+    not_equal
+    
+    logical_and,logical_or, 进行逐个元素的逻辑操作(与逻辑操作符&、|、^效果一致)
+    logical_xor
+## 基础数学统计方法 
+> arr.sum()    通过传递axis=0, 1可以改变计算轴向为行或列
 
+    函数名                  描述
+    
+    sum                     沿着轴向计算所有元素的累和，0长度的数组，累和为0
+    mean                    数学平均，0长度的数组平均值为NaN
+    std，var                标准差和方差，可以选择自由调度(默认分母是n)
+    min，max                最小值和最大值
+    argmin，argmax          最小值和最大值的位置
+    cumsum                  从0开始元素累积和
+    cumprod                 从1开始元素累积积
 ## 数组的集合操作
-
+    函数名                   描述
+    
+    unique(x)               计算x的唯一值，并排序
+    intersectld(x, y)       计算x和y的交集，并排序
+    unionld(x, y)           计算x和y的并集，并排序
+    inld(x, y)              计算x中的元素是否包含在y中，返回一个布尔值数组
+    setdiffld(x, y)         差集，在x中但不在y中的x的元素
+    setxorld(x, y)          异或集，在x中或y中，但不属于x、y交集的元素    
 ## 常用numpy.linalg函数
+> dot(x, y)   x.dot(y)
 
+    函数名                  描述
+    
+    diag                   将一个方阵的对角(或非对角)元素作为一维数组返回，或者将一维数组转换成一个方阵，并且在非对角线上有零点
+    dot                    矩阵点乘
+    trace                  计算对角元素和
+    det                    计算矩阵的行列式
+    eig                    计算方阵的特征值和特征向量
+    inv                    计算方阵的逆矩阵
+    pinv                   计算矩阵的Moore-Penrose伪逆
+    qr                     计算QR分解
+    svd                    计算奇异值分解(SVD)
+    solve                  求解x的线性系统Ax = b，其中A是方阵
+    lstsq                  计算Ax = b的最小二乘解
+                    
 ## numpy.random部分函数
+> np.random.seed(1234)
+
+    函数名                  描述
+    
+    seed                    向随机数生成器传递随机状态种子
+    permutation             返回一个序列的随机排序，或者返回一个乱序的整数范围序列
+    shuffle                 随机排列一个序列
+    rand                    从均匀分布中抽取样本
+    randint                 根据给定的由低到高的范围抽取随机整数
+    randn                   从均值0方差1的正态分布中抽取样本(MATLAB型接口)
+    binomial                从二项分布中抽取样本
+    normal                  从正态(高斯)分布中抽取样本
+    beta                    从beta分布中抽取样本
+    chisquare               从卡方分布中抽取样本
+    gamma                   从伽马分布中抽取样本
+    uniform                 从均匀[0, 1)分布中抽取样本
+    
