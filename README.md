@@ -42,6 +42,7 @@
 ## 数据存取及文件格式
 - [数据载入、存储及文件格式](https://github.com/BigOrange128/PythonData-Book/blob/master/%E6%95%B0%E6%8D%AE%E8%BD%BD%E5%85%A5%E3%80%81%E5%AD%98%E5%82%A8%E5%8F%8A%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F.ipynb)
 
+      文本格式数据的读写，分块读入文本文件，将数据写入文本格式，使用分隔格式
 - [数据载入、存储及文件格式2](https://github.com/BigOrange128/PythonData-Book/blob/master/%E6%95%B0%E6%8D%AE%E8%BD%BD%E5%85%A5%E3%80%81%E5%AD%98%E5%82%A8%E5%8F%8A%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F2.ipynb)
 
 
